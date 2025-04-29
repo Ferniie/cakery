@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="icon"  href="logo.png">
 <title>
@@ -24,35 +25,27 @@ Products
 </header>
 
 
-
+<div class="productstext">
 <p> Here at Munamii Cakery we have a big selection when it comes to Cupcakes and Weddingcakes.</p>
 <p> What are you looking for today?</p>
-
-
-
-<div class="chooseproducts">
-    <a href="cupcakes.html"><img src="images/cupcakes.jpg"  alt="Cupcake" width="250" height="250"> </a>
-    
-    <a href="weddingcakes.html"><img src="images/weddingcakes.jpg"  alt="Cupcake" width="250" height="250"></a>
 </div>
 
-
- <!-- <div>
-    <div class="cupcakeoverlay">
-        <a href="cupcakes.html"><img src="cupcakes.jpg"  alt="Cupcake" class="choicepic"> </a>
+<div class="products">
+    
+    <div class="cupcontainer">
+        <img src="images/cupcakes.jpg" alt="Avatar" class="image">
         <div class="overlay">
-            <div class="protext">CUPCAKES</div>   
+            <a href="cupcakes.html"><div class="text">CUPCAKES</div></a>
+        </div>
     </div>
 
-
-    <div class="weddingcakeoverlay">
-        <a href="weddingcakes.html"><img src="weddingcakes.jpg"  alt="Cupcake" class="choicepic"></a>
-        <div class="overlay"> 
-            <div class="protext"> WEDDING CAKES</div>   
+    <div class="wccontainer">
+        <img src="images/weddingcakes.jpg" alt="Avatar" class="image">
+        <div class="overlay">
+            <a href="weddingcakes.html"><div class="text">WEDDING CAKES</div></a>
+        </div>
     </div>
-
-</div> -->
-
+</div>
 
 
 
@@ -69,7 +62,7 @@ Products
         <p>Subscribe to keep up with delicious news and exciting deals.</p>
         <div class="form">
             <input type="email" class="subemail" placeholder="Enter your email address" />
-            <button class="subbutton">Subscribe</button>
+            <button class="subbutton"onclick="alert('You successfully subscribed')">Subscribe</button>
         </div>
     </div>
 

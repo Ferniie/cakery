@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="icon"  href="logo.png">
 <title>
@@ -24,69 +25,64 @@ Wedding Cakes
 
 
 
-<h1>Weddingcakes</h1>
-
-<p> We have different flavors</p>
-
-<p> - create your own?</p>
-<p> - en rad till</p>
-<p> - info om ingredienser?</p>
+<h1>Weddingcakes<span class="info-icon" data-ingredients="If you have any allergies, let us know. ">i</span></h1>
 
 
 
+<button class="backbutton" onclick="history.back()">Back</button>
 <div class="grid-container">
     <div>
         <img src="images/weddingcake.jpg"  alt="Weddingcake" width="250" height="250">
-        <p>Lemoncurd</p>
+        <p class="boldtext">Lemoncurd <span class="wdinfo" data-ingredients="Flour, Sugar, Eggs, Butter, Milk, Lemoncurd, Baking Powder, Salt, Powdered Sugar, Cream">i</span></p>
         <p>600kr</p>
-        <button type="button" onclick="alert('Hello world!')">Add to Cart</button>
+        <button class="button2"  onclick="alert('Added to Cart')">Add to Cart</button>
+    
     </div>
     <div>
         <img src="images/weddingcake2.jpg"  alt="Weddingcake" width="250" height="250">
-        <p>Red velvet</p>
+        <p class="boldtext">Red velvet <span class="wdinfo" data-ingredients="Flour, Sugar, Eggs, Butter, Milk, Red, Baking Powder, Salt, Powdered Sugar, Cream">i</span></p>
         <p>600kr</p>
-        <button type="button" onclick="alert('Hello world!')">Add to Cart</button>
+        <button class="button2"  onclick="alert('Added to Cart')">Add to Cart</button>
     </div>
     <div>
         <img src="images/weddingcake3.jpg"  alt="Weddingcake" width="250" height="250">
-        <p>Chocolate</p>
+        <p class="boldtext">Chocolate <span class="wdinfo" data-ingredients="Flour, Sugar, Eggs, Butter, Milk, Chocolate, Baking Powder, Salt, Powdered Sugar, Cream">i</span></p>
         <p>600kr</p>
-        <button type="button" onclick="alert('Hello world!')">Add to Cart</button>
+        <button class="button2"  onclick="alert('Added to Cart')">Add to Cart</button>
     </div>  
     <div>
         <img src="images/weddingcake4.jpg"  alt="Weddingcake" width="250" height="250">
-        <p>Pink Blossom</p>
+        <p class="boldtext">Pink Blossom <span class="wdinfo" data-ingredients="Flour, Sugar, Eggs, Butter, Milk, Vanilla, Baking Powder, Salt, Powdered Sugar, Cream">i</span></p>
         <p>600kr</p>
-        <button type="button" onclick="alert('Hello world!')">Add to Cart</button>
+        <button class="button2"  onclick="alert('Added to Cart')">Add to Cart</button>
     </div>
     <div>
         <img src="images/weddingcake5.jpg"  alt="Weddingcake" width="250" height="250">
-        <p>Vanilla Raspberry</p>
+        <p class="boldtext">Vanilla Raspberry <span class="wdinfo" data-ingredients="Flour, Sugar, Eggs, Butter, Milk, Vanilla, Baking Powder, Salt, Cream, Raspberry">i</span></p>
         <p>600kr</p>
-        <button type="button" onclick="alert('Hello world!')">Add to Cart</button>
+        <button class="button2"  onclick="alert('Added to Cart')">Add to Cart</button>
     </div>
     <div>
         <img src="images/weddingcake6.jpg"  alt="Weddingcake" width="250" height="250">
-        <p>Carrot </p>
+        <p class="boldtext">Carrot <span class="wdinfo" data-ingredients="Flour, Sugar, Eggs, Butter, Milk, Carrot, Baking Powder, Salt, Powdered Sugar, Cream">i</span></p>
         <p>600kr</p>
-        <button type="button" onclick="alert('Hello world!')">Add to Cart</button>
+        <button class="button2"  onclick="alert('Added to Cart')">Add to Cart</button>
     </div>  
     <div>
         <img src="images/weddingcake7.jpg"  alt="Weddingcake" width="250" height="250">
-        <p>Blueberry</p>
+        <p class="boldtext">Blueberry <span class="wdinfo" data-ingredients="Flour, Sugar, Eggs, Butter, Milk, Blueberry, Baking Powder, Salt, Powdered Sugar, Cream">i</span></p>
         <p>600kr</p>
-        <button type="button" onclick="alert('Hello world!')">Add to Cart</button>
+        <button class="button2"  onclick="alert('Added to Cart')">Add to Cart</button>
     </div>
     <div>
         <img src="images/weddingcake8.jpg"  alt="Weddingcake" width="250" height="250">
-        <p>Strawberry</p>
+        <p class="boldtext">Strawberry <span class="wdinfo" data-ingredients="Flour, Sugar, Eggs, Butter, Milk, Strawberry, Baking Powder, Salt, Powdered Sugar, Cream">i</span></p>
         <p>600kr</p>
-        <button type="button" onclick="alert('Hello world!')">Add to Cart</button>
+        <button class="button2"  onclick="alert('Added to Cart')">Add to Cart</button>
     </div>
 </div>
+<button class="backbutton" onclick="history.back()">Back</button>
 
-
-<button type="backbutton" onclick="history.back()">Back</button>
 
 
 
@@ -101,7 +97,7 @@ Wedding Cakes
         <p>Subscribe to keep up with delicious news and exciting deals.</p>
         <div class="form">
             <input type="email" class="subemail" placeholder="Enter your email address" />
-            <button class="subbutton">Subscribe</button>
+            <button class="subbutton"onclick="alert('You successfully subscribed')">Subscribe</button>
         </div>
     </div>
 
